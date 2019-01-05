@@ -12,7 +12,7 @@
 *  distance     - calculate distances                                          *
 ********************************************************************************
 
-  Job Started  at 00:18.30  5th January    2019                               
+  Job Started  at 00:23.48  5th January    2019                               
 
   Number of CPUs =     1
 
@@ -36,17 +36,17 @@
 
   Cartesian lattice vectors (Angstroms) :
 
-        4.060000    0.000000    0.000000
-        0.000000    4.060000    0.000000
-        0.000000    0.000000    4.060000
+        4.070000    0.000000    0.000000
+        0.000000    4.070000    0.000000
+        0.000000    0.000000    4.070000
 
   Cell parameters (Angstroms/Degrees):
 
-  a =       4.0600    alpha =  90.0000
-  b =       4.0600    beta  =  90.0000
-  c =       4.0600    gamma =  90.0000
+  a =       4.0700    alpha =  90.0000
+  b =       4.0700    beta  =  90.0000
+  c =       4.0700    gamma =  90.0000
 
-  Initial cell volume =          66.923416 Angs**3
+  Initial cell volume =          67.419143 Angs**3
 
   Temperature of configuration =  0.000     K 
 
@@ -122,14 +122,14 @@ Au   c Au   c Lennard       Lennard-Jones A  214108.20    eV*Ang^m  0.000 40.000
   Components of energy : 
 
 --------------------------------------------------------------------------------
-  Interatomic potentials     =         -15.71704572 eV    
+  Interatomic potentials     =         -15.72604656 eV    
   Monopole - monopole (real) =           0.00000000 eV    
   Monopole - monopole (recip)=           0.00000000 eV    
   Monopole - monopole (total)=           0.00000000 eV    
 --------------------------------------------------------------------------------
-  Total lattice energy       =         -15.71704572 eV    
+  Total lattice energy       =         -15.72604656 eV    
 --------------------------------------------------------------------------------
-  Total lattice energy       =           -1516.4547 kJ/(mole unit cells)
+  Total lattice energy       =           -1517.3231 kJ/(mole unit cells)
 --------------------------------------------------------------------------------
 
   Peak dynamic memory used =       1.53 MB 
@@ -140,11 +140,11 @@ Au   c Au   c Lennard       Lennard-Jones A  214108.20    eV*Ang^m  0.000 40.000
 --------------------------------------------------------------------------------
   Task / Subroutine                                          Time (Seconds)
 --------------------------------------------------------------------------------
-  Calculation of real space energy and derivatives                0.0133
+  Calculation of real space energy and derivatives                0.0126
 --------------------------------------------------------------------------------
-  Total CPU time                                                  0.0169
+  Total CPU time                                                  0.0148
 --------------------------------------------------------------------------------
 
 
-  Job Finished at 00:18.30  5th January    2019                               
+  Job Finished at 00:23.48  5th January    2019                               
 

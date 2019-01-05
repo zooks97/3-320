@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set run name
-runname="gulp1b2"
+runname="au_eam_single"
 
 # define lattice parameters
 parameters=( 4.06 4.07 4.08 4.09 4.10)

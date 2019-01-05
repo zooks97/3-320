@@ -12,7 +12,7 @@
 *  distance     - calculate distances                                          *
 ********************************************************************************
 
-  Job Started  at 00:16.57  5th January    2019                               
+  Job Started  at 00:25.13  5th January    2019                               
 
   Number of CPUs =     1
 
@@ -36,17 +36,17 @@
 
   Cartesian lattice vectors (Angstroms) :
 
-        4.080000    0.000000    0.000000
-        0.000000    4.080000    0.000000
-        0.000000    0.000000    4.080000
+        4.090000    0.000000    0.000000
+        0.000000    4.090000    0.000000
+        0.000000    0.000000    4.090000
 
   Cell parameters (Angstroms/Degrees):
 
-  a =       4.0800    alpha =  90.0000
-  b =       4.0800    beta  =  90.0000
-  c =       4.0800    gamma =  90.0000
+  a =       4.0900    alpha =  90.0000
+  b =       4.0900    beta  =  90.0000
+  c =       4.0900    gamma =  90.0000
 
-  Initial cell volume =          67.917312 Angs**3
+  Initial cell volume =          68.417929 Angs**3
 
   Temperature of configuration =  0.000     K 
 
@@ -152,15 +152,15 @@ Au   c Au   c Lennard       Lennard-Jones A  16352.119    eV*Ang^m  0.000 12.000
   Components of energy : 
 
 --------------------------------------------------------------------------------
-  Interatomic potentials     =          10.07976195 eV    
-  Many-body potentials       =         -25.19658698 eV    
+  Interatomic potentials     =           9.83600694 eV    
+  Many-body potentials       =         -24.95106787 eV    
   Monopole - monopole (real) =           0.00000000 eV    
   Monopole - monopole (recip)=           0.00000000 eV    
   Monopole - monopole (total)=           0.00000000 eV    
 --------------------------------------------------------------------------------
-  Total lattice energy       =         -15.11682504 eV    
+  Total lattice energy       =         -15.11506093 eV    
 --------------------------------------------------------------------------------
-  Total lattice energy       =           -1458.5425 kJ/(mole unit cells)
+  Total lattice energy       =           -1458.3723 kJ/(mole unit cells)
 --------------------------------------------------------------------------------
 
   Peak dynamic memory used =       0.51 MB 
@@ -173,12 +173,12 @@ Au   c Au   c Lennard       Lennard-Jones A  16352.119    eV*Ang^m  0.000 12.000
 --------------------------------------------------------------------------------
   Calculation of real space energy and derivatives                0.0003
 --------------------------------------------------------------------------------
-  Total CPU time                                                  0.0026
+  Total CPU time                                                  0.0045
 --------------------------------------------------------------------------------
 
 
-  Dump file written as gulp1b2_4.08.grs
+  Dump file written as au_eam_single_4.09.grs
 
 
-  Job Finished at 00:16.57  5th January    2019                               
+  Job Finished at 00:25.13  5th January    2019                               
 

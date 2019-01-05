@@ -23,4 +23,4 @@ eam_functional square_root
 Au    core         1.000000
 eam_density power  8
 Au    core     14878.014020
-dump gulp1b2_4.08.grs
+dump au_eam_single_4.08.grs

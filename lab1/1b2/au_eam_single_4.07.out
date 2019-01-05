@@ -12,7 +12,7 @@
 *  distance     - calculate distances                                          *
 ********************************************************************************
 
-  Job Started  at 00:16.57  5th January    2019                               
+  Job Started  at 00:25.13  5th January    2019                               
 
   Number of CPUs =     1
 
@@ -171,14 +171,14 @@ Au   c Au   c Lennard       Lennard-Jones A  16352.119    eV*Ang^m  0.000 12.000
 --------------------------------------------------------------------------------
   Task / Subroutine                                          Time (Seconds)
 --------------------------------------------------------------------------------
-  Calculation of real space energy and derivatives                0.0003
+  Calculation of real space energy and derivatives                0.0004
 --------------------------------------------------------------------------------
-  Total CPU time                                                  0.0043
+  Total CPU time                                                  0.0034
 --------------------------------------------------------------------------------
 
 
-  Dump file written as gulp1b2_4.07.grs
+  Dump file written as au_eam_single_4.07.grs
 
 
-  Job Finished at 00:16.57  5th January    2019                               
+  Job Finished at 00:25.13  5th January    2019                               
 
