@@ -1,0 +1,150 @@
+********************************************************************************
+*                       GENERAL UTILITY LATTICE PROGRAM                        *
+*                                 Julian Gale                                  *
+*                       Curtin Institute for Computation                       *
+*                           Department of Chemistry                            *
+*                    Curtin University, Western Australia                      *
+********************************************************************************
+* Version = 5.1.1 * Last modified =  24th November 2018                        *
+********************************************************************************
+*  single       - perform a single point run                                   *
+*  conp         - constant pressure calculation                                *
+*  distance     - calculate distances                                          *
+********************************************************************************
+
+  Job Started  at 00:18.30  5th January    2019                               
+
+  Number of CPUs =     1
+
+
+  Total number of configurations input =      1
+
+********************************************************************************
+*  Input for Configuration =   1                                               *
+********************************************************************************
+
+  Formula = Au4                                                         
+
+  Number of irreducible atoms/shells =       4
+
+
+  Total number atoms/shells =       4
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+        4.100000    0.000000    0.000000
+        0.000000    4.100000    0.000000
+        0.000000    0.000000    4.100000
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =       4.1000    alpha =  90.0000
+  b =       4.1000    beta  =  90.0000
+  c =       4.1000    gamma =  90.0000
+
+  Initial cell volume =          68.921000 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Au    c    0.000000    0.000000    0.000000     0.00000    1.000000    
+      2 Au    c    0.000000    0.500000    0.500000     0.00000    1.000000    
+      3 Au    c    0.500000    0.000000    0.500000     0.00000    1.000000    
+      4 Au    c    0.500000    0.500000    0.000000     0.00000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+  Distance calculation :
+
+
+  Cutoff for distances  =      2.000000 Angstroms
+
+--------------------------------------------------------------------------------
+  Asymmetric unit site  Full lattice sites    No.  Distance      No.  Distance
+      No.   At.No.            At.No.                (Angs)             (Angs) 
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  General input information                                                   *
+********************************************************************************
+
+  Species output for all configurations : 
+
+--------------------------------------------------------------------------------
+  Species    Type    Atomic    Atomic    Charge       Radii (Angs)     Library
+                     Number     Mass       (e)     Cova   Ionic  VDW   Symbol
+--------------------------------------------------------------------------------
+    Au       Core       79     196.97   0.000000   1.500  0.000  1.850          
+--------------------------------------------------------------------------------
+
+
+  Lattice summation method               =    Ewald          (3-D)
+                                         =    Parry          (2-D)
+                                         =    Saunders et al (1-D)
+  Accuracy factor for lattice sums       =   12.000
+
+
+  Time limit = Infinity
+
+  Maximum range for interatomic potentials =    100000.000000 Angstroms
+
+  General interatomic potentials :
+
+--------------------------------------------------------------------------------
+Atom  Types   Potential      Parameter       Value         Units   Cutoffs(Ang)
+  1     2                                                            Min /  Max 
+--------------------------------------------------------------------------------
+Au   c Au   c Lennard       Lennard-Jones A  214108.20    eV*Ang^m  0.000 40.000
+                            Lennard-Jones B  625.48200    eV*Ang^n  
+                            Exponent m        12          None
+                            Exponent n         6          None
+--------------------------------------------------------------------------------
+
+********************************************************************************
+*  Output for configuration   1                                                *
+********************************************************************************
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =         -15.71185618 eV    
+  Monopole - monopole (real) =           0.00000000 eV    
+  Monopole - monopole (recip)=           0.00000000 eV    
+  Monopole - monopole (total)=           0.00000000 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -15.71185618 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1515.9539 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+  Peak dynamic memory used =       1.49 MB 
+
+
+  Timing analysis for GULP :
+
+--------------------------------------------------------------------------------
+  Task / Subroutine                                          Time (Seconds)
+--------------------------------------------------------------------------------
+  Calculation of real space energy and derivatives                0.0267
+--------------------------------------------------------------------------------
+  Total CPU time                                                  0.0309
+--------------------------------------------------------------------------------
+
+
+  Job Finished at 00:18.30  5th January    2019                               
+

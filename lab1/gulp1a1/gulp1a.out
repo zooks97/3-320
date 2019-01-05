@@ -1,0 +1,295 @@
+********************************************************************************
+*                       GENERAL UTILITY LATTICE PROGRAM                        *
+*                                 Julian Gale                                  *
+*                       Curtin Institute for Computation                       *
+*                           Department of Chemistry                            *
+*                    Curtin University, Western Australia                      *
+********************************************************************************
+* Version = 5.1.1 * Last modified =  24th November 2018                        *
+********************************************************************************
+*  optimise     - perform optimisation run                                     *
+*  conp         - constant pressure calculation                                *
+*  distance     - calculate distances                                          *
+*  compare      - compare initial and final structures                         *
+********************************************************************************
+
+  Job Started  at 19:48.50  4th January    2019                               
+
+  Number of CPUs =     1
+
+
+  Total number of configurations input =      1
+
+********************************************************************************
+*  Input for Configuration =   1                                               *
+********************************************************************************
+
+  Formula = Au4                                                         
+
+  Number of irreducible atoms/shells =       4
+
+
+  Total number atoms/shells =       4
+
+  Dimensionality = 3               :  Bulk   
+
+
+
+  Cartesian lattice vectors (Angstroms) :
+
+        3.000000    0.000000    0.000000
+        0.000000    3.000000    0.000000
+        0.000000    0.000000    3.000000
+
+  Cell parameters (Angstroms/Degrees):
+
+  a =       3.0000    alpha =  90.0000
+  b =       3.0000    beta  =  90.0000
+  c =       3.0000    gamma =  90.0000
+
+  Initial cell volume =          27.000000 Angs**3
+
+  Temperature of configuration =  0.000     K 
+
+  Pressure of configuration =         0.000 GPa 
+
+  Fractional coordinates of asymmetric unit :
+
+--------------------------------------------------------------------------------
+   No.  Atomic       x           y          z         Charge      Occupancy
+        Label      (Frac)      (Frac)     (Frac)        (e)         (Frac)  
+--------------------------------------------------------------------------------
+      1 Au    c    0.000000    0.000000    0.000000     0.00000    1.000000    
+      2 Au    c    0.000000 *  0.500000 *  0.500000 *   0.00000    1.000000    
+      3 Au    c    0.500000 *  0.000000 *  0.500000 *   0.00000    1.000000    
+      4 Au    c    0.500000 *  0.500000 *  0.000000 *   0.00000    1.000000    
+--------------------------------------------------------------------------------
+
+
+
+  Distance calculation :
+
+
+  Cutoff for distances  =      2.000000 Angstroms
+
+--------------------------------------------------------------------------------
+  Asymmetric unit site  Full lattice sites    No.  Distance      No.  Distance
+      No.   At.No.            At.No.                (Angs)             (Angs) 
+--------------------------------------------------------------------------------
+
+
+
+********************************************************************************
+*  General input information                                                   *
+********************************************************************************
+
+  Species output for all configurations : 
+
+--------------------------------------------------------------------------------
+  Species    Type    Atomic    Atomic    Charge       Radii (Angs)     Library
+                     Number     Mass       (e)     Cova   Ionic  VDW   Symbol
+--------------------------------------------------------------------------------
+    Au       Core       79     196.97   0.000000   1.500  0.000  1.850          
+--------------------------------------------------------------------------------
+
+
+  Lattice summation method               =    Ewald          (3-D)
+                                         =    Parry          (2-D)
+                                         =    Saunders et al (1-D)
+  Accuracy factor for lattice sums       =   12.000
+
+
+  Time limit = Infinity
+
+  Maximum range for interatomic potentials =    100000.000000 Angstroms
+
+  General interatomic potentials :
+
+--------------------------------------------------------------------------------
+Atom  Types   Potential      Parameter       Value         Units   Cutoffs(Ang)
+  1     2                                                            Min /  Max 
+--------------------------------------------------------------------------------
+Au   c Au   c Lennard       Lennard-Jones A  214108.20    eV*Ang^m  0.000 40.000
+                            Lennard-Jones B  625.48200    eV*Ang^n  
+                            Exponent m        12          None
+                            Exponent n         6          None
+--------------------------------------------------------------------------------
+
+********************************************************************************
+*  Output for configuration   1                                                *
+********************************************************************************
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =         427.21690355 eV    
+  Monopole - monopole (real) =           0.00000000 eV    
+  Monopole - monopole (recip)=           0.00000000 eV    
+  Monopole - monopole (total)=           0.00000000 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =         427.21690355 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =           41219.9006 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+
+  Number of variables =       15
+
+  Maximum number of calculations  =          1000
+  Maximum Hessian update interval =            10
+  Maximum step size               =   1.000000000
+  Maximum parameter tolerance     =   0.000010000
+  Maximum function  tolerance     =   0.000010000
+  Maximum gradient  tolerance     =   0.001000000
+  Maximum gradient  component     =   0.010000000
+
+  Symmetry not applied to optimisation
+
+  Cell parameters to be optimised using strains
+
+  Newton-Raphson optimiser to be used
+
+  BFGS hessian update to be used
+
+  Lower half triangular hessian to be used
+
+  Start of bulk optimisation :
+
+  Cycle:      0 Energy:       427.216904  Gnorm:    243.144165  CPU:    0.068
+  ** Hessian calculated **
+  Cycle:      1 Energy:       -10.772754  Gnorm:      6.367360  CPU:    0.092
+  ** Hessian calculated **
+  Cycle:      2 Energy:       -15.561538  Gnorm:      0.825040  CPU:    0.108
+  Cycle:      3 Energy:       -15.728021  Gnorm:      0.012275  CPU:    0.114
+  Cycle:      4 Energy:       -15.728066  Gnorm:      0.000008  CPU:    0.121
+
+
+  **** Optimisation achieved ****
+
+
+  Final energy =     -15.72806632 eV
+  Final Gnorm  =       0.00000002
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =         -15.72806632 eV    
+  Monopole - monopole (real) =           0.00000000 eV    
+  Monopole - monopole (recip)=           0.00000000 eV    
+  Monopole - monopole (total)=           0.00000000 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =         -15.72806632 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =           -1517.5180 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+  Final fractional coordinates of atoms :
+
+--------------------------------------------------------------------------------
+   No.  Atomic        x           y          z          Radius
+        Label       (Frac)      (Frac)     (Frac)       (Angs) 
+--------------------------------------------------------------------------------
+     1  Au    c     0.000000    0.000000    0.000000    0.000000
+     2  Au    c     0.000000    0.500000    0.500000    0.000000
+     3  Au    c     0.500000    1.000000    0.500000    0.000000
+     4  Au    c     0.500000    0.500000    0.000000    0.000000
+--------------------------------------------------------------------------------
+
+  Final Cartesian lattice vectors (Angstroms) :
+
+        4.077788    0.000000    0.000000
+        0.000000    4.077788    0.000000
+        0.000000    0.000000    4.077788
+
+
+  Final cell parameters and derivatives :
+
+--------------------------------------------------------------------------------
+       a            4.077788 Angstrom     dE/de1(xx)    -0.000000 eV/strain
+       b            4.077788 Angstrom     dE/de2(yy)    -0.000000 eV/strain
+       c            4.077788 Angstrom     dE/de3(zz)    -0.000000 eV/strain
+       alpha       90.000000 Degrees      dE/de4(yz)     0.000000 eV/strain
+       beta        90.000000 Degrees      dE/de5(xz)     0.000000 eV/strain
+       gamma       90.000000 Degrees      dE/de6(xy)     0.000000 eV/strain
+--------------------------------------------------------------------------------
+
+  Primitive cell volume =            67.806919 Angs**3
+
+  Density of cell =     19.294879 g/cm**3
+
+  Non-primitive cell volume =            67.806919 Angs**3
+
+
+  Final internal derivatives :
+
+--------------------------------------------------------------------------------
+   No.  Atomic          a             b             c           Radius
+        Label          (eV)          (eV)          (eV)        (eV/Angs)
+--------------------------------------------------------------------------------
+      1 Au    c       0.000000      0.000000      0.000000      0.000000
+      2 Au    c      -0.000000      0.000000      0.000000      0.000000
+      3 Au    c       0.000000     -0.000000      0.000000      0.000000
+      4 Au    c       0.000000      0.000000     -0.000000      0.000000
+--------------------------------------------------------------------------------
+  Maximum abs         0.000000      0.000000      0.000000      0.000000
+--------------------------------------------------------------------------------
+
+  Comparison of initial and final structures : 
+
+--------------------------------------------------------------------------------
+  Parameter   Initial value   Final value   Difference    Units      Percent
+--------------------------------------------------------------------------------
+    Volume        27.000000     67.806919    40.806919    Angs**3    151.14
+    a              3.000000      4.077788     1.077788    Angstroms   35.93
+    b              3.000000      4.077788     1.077788    Angstroms   35.93
+    c              3.000000      4.077788     1.077788    Angstroms   35.93
+    alpha         90.000000     90.000000     0.000000    Degrees      0.00
+    beta          90.000000     90.000000     0.000000    Degrees      0.00
+    gamma         90.000000     90.000000     0.000000    Degrees      0.00
+      1 x          0.000000      0.000000     0.000000    Fractional   0.00
+      1 y          0.000000      0.000000     0.000000    Fractional   0.00
+      1 z          0.000000      0.000000     0.000000    Fractional   0.00
+      2 x          0.000000      0.000000     0.000000    Fractional   0.00
+      2 y          0.500000      0.500000     0.000000    Fractional   0.00
+      2 z          0.500000      0.500000     0.000000    Fractional   0.00
+      3 x          0.500000      0.500000     0.000000    Fractional   0.00
+      3 y          0.000000      1.000000     1.000000    Fractional   0.00
+      3 z          0.500000      0.500000     0.000000    Fractional   0.00
+      4 x          0.500000      0.500000     0.000000    Fractional   0.00
+      4 y          0.500000      0.500000     0.000000    Fractional   0.00
+      4 z          0.000000      0.000000     0.000000    Fractional   0.00
+--------------------------------------------------------------------------------
+
+
+  Distance calculation :
+
+
+  Cutoff for distances  =      2.000000 Angstroms
+
+--------------------------------------------------------------------------------
+  Asymmetric unit site  Full lattice sites    No.  Distance      No.  Distance
+      No.   At.No.            At.No.                (Angs)             (Angs) 
+--------------------------------------------------------------------------------
+
+
+
+  Time to end of optimisation =       0.1282 seconds
+
+
+  Peak dynamic memory used =       3.51 MB 
+
+
+  Timing analysis for GULP :
+
+--------------------------------------------------------------------------------
+  Task / Subroutine                                          Time (Seconds)
+--------------------------------------------------------------------------------
+  Calculation of real space energy and derivatives                0.1252
+--------------------------------------------------------------------------------
+  Total CPU time                                                  0.1282
+--------------------------------------------------------------------------------
+
+
+  Job Finished at 19:48.50  4th January    2019                               
+
