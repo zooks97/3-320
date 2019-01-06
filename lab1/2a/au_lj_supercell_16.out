@@ -12,9 +12,11 @@
 *  distance     - calculate distances                                          *
 ********************************************************************************
 
-  Job Started  at 02:00.10  6th January    2019                               
+  Job Started  at 02:26.13  6th January    2019                               
 
   Number of CPUs =     1
+
+  Host name      = halstead-fe03.rcac.purdue.edu           
 
 
   Total number of configurations input =      1
@@ -16470,3 +16472,61 @@
 --------------------------------------------------------------------------------
     Au       Core       79     196.97   0.000000   1.500  0.000  1.850          
 --------------------------------------------------------------------------------
+
+
+  Lattice summation method               =    Ewald          (3-D)
+                                         =    Parry          (2-D)
+                                         =    Saunders et al (1-D)
+  Accuracy factor for lattice sums       =   12.000
+
+
+  Time limit = Infinity
+
+  Maximum range for interatomic potentials =    100000.000000 Angstroms
+
+  General interatomic potentials :
+
+--------------------------------------------------------------------------------
+Atom  Types   Potential      Parameter       Value         Units   Cutoffs(Ang)
+  1     2                                                            Min /  Max 
+--------------------------------------------------------------------------------
+Au   c Au   c Lennard       Lennard-Jones A  214108.20    eV*Ang^m  0.000 40.000
+                            Lennard-Jones B  625.48200    eV*Ang^n  
+                            Exponent m        12          None
+                            Exponent n         6          None
+--------------------------------------------------------------------------------
+
+********************************************************************************
+*  Output for configuration   1                                                *
+********************************************************************************
+
+
+  Components of energy : 
+
+--------------------------------------------------------------------------------
+  Interatomic potentials     =      -64422.07287962 eV    
+  Monopole - monopole (real) =           0.00000000 eV    
+  Monopole - monopole (recip)=           0.00000000 eV    
+  Monopole - monopole (total)=           0.00000000 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =      -64422.07287962 eV    
+--------------------------------------------------------------------------------
+  Total lattice energy       =        -6215745.2513 kJ/(mole unit cells)
+--------------------------------------------------------------------------------
+
+  Peak dynamic memory used =      51.49 MB 
+
+
+  Timing analysis for GULP :
+
+--------------------------------------------------------------------------------
+  Task / Subroutine                                          Time (Seconds)
+--------------------------------------------------------------------------------
+  Calculation of real space energy and derivatives               46.1366
+--------------------------------------------------------------------------------
+  Total CPU time                                                137.3964
+--------------------------------------------------------------------------------
+
+
+  Job Finished at 02:28.30  6th January    2019                               
+
