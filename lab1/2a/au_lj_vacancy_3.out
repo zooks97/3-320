@@ -12,11 +12,9 @@
 *  distance     - calculate distances                                          *
 ********************************************************************************
 
-  Job Started  at 11:34.13  6th January    2019                               
+  Job Started  at 17:36.55  6th January    2019                               
 
   Number of CPUs =     1
-
-  Host name      = halstead-fe03.rcac.purdue.edu           
 
 
   Total number of configurations input =      1
@@ -245,11 +243,11 @@ Au   c Au   c Lennard       Lennard-Jones A  214108.20    eV*Ang^m  0.000 40.000
 --------------------------------------------------------------------------------
   Task / Subroutine                                          Time (Seconds)
 --------------------------------------------------------------------------------
-  Calculation of real space energy and derivatives                0.0568
+  Calculation of real space energy and derivatives                0.0396
 --------------------------------------------------------------------------------
-  Total CPU time                                                  0.0639
+  Total CPU time                                                  0.0446
 --------------------------------------------------------------------------------
 
 
-  Job Finished at 11:34.13  6th January    2019                               
+  Job Finished at 17:36.55  6th January    2019                               
 
