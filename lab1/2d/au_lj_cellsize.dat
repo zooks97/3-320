@@ -1,0 +1,6 @@
+au_lj_surface_cellsize_1.out:  Total lattice energy       =          -5.23495624 eV    	au_lj_surface_supercell_1.out:  Total lattice energy       =         -15.72804514 eV    
+au_lj_surface_cellsize_2.out:  Total lattice energy       =         -20.93982496 eV    	au_lj_surface_supercell_2.out:  Total lattice energy       =         -62.91218055 eV    
+au_lj_surface_cellsize_3.out:  Total lattice energy       =         -47.11460616 eV    	au_lj_surface_supercell_3.out:  Total lattice energy       =        -141.55240623 eV    
+au_lj_surface_cellsize_4.out:  Total lattice energy       =         -83.75929985 eV    	au_lj_surface_supercell_4.out:  Total lattice energy       =        -251.64872222 eV    
+au_lj_surface_cellsize_5.out:  Total lattice energy       =        -130.87390601 eV    	au_lj_surface_supercell_5.out:  Total lattice energy       =        -393.20112847 eV    
+au_lj_surface_cellsize_6.out:  Total lattice energy       =        -188.45842454 eV    	au_lj_surface_supercell_6.out:  Total lattice energy       =        -566.20962475 eV    
